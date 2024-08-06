@@ -45,9 +45,9 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
-!!! Для запуска проекта у вас должен быть файл ".env" в корневой директории, вот пример его заполнения: 
-**DATABASE_URL="postgresql://postgres:12345678@localhost:5432/main-db?schema=public"
-JWT_SECRET='VeRySeCrEtKeY'
+!!! Для запуска проекта у вас должен быть файл ".env" в корневой директории, вот пример его заполнения (также прикрепил свой):  
+**DATABASE_URL='postgresql://postgres:12345678@localhost:5432/main-db?schema=public'  
+JWT_SECRET='VeRySeCrEtKeY'  
 MIN_PASSWORD_LENGTH = 8**
 
 ## Test
@@ -63,9 +63,9 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
-!!! Для запуска тестов у вас должен быть файл ".env.test" в корневой директории, вот пример его заполнения: 
-**DATABASE_URL="postgresql://postgres:12345678@localhost:5432/test-db?schema=public"
-JWT_SECRET='VeRySeCrEtKeY'
+!!! Для запуска тестов у вас должен быть файл ".env.test" в корневой директории, вот пример его заполнения (также прикрепил свой): 
+**DATABASE_URL='postgresql://postgres:12345678@localhost:5432/test-db?schema=public'  
+JWT_SECRET='VeRySeCrEtKeY'  
 MIN_PASSWORD_LENGTH = 8**
 
 ## License
