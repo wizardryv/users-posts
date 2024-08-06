@@ -37,12 +37,6 @@ $ npm install
 ```bash
 # development
 $ npm run start
-
-# watch mode
-$ npm run start:dev
-
-# production mode
-$ npm run start:prod
 ```
 
 !!! Для запуска проекта у вас должен быть файл ".env" в корневой директории, вот пример его заполнения (также прикрепил свой):  
@@ -53,14 +47,8 @@ MIN_PASSWORD_LENGTH = 8**
 ## Test
 
 ```bash
-# unit tests
-$ npm run test
-
 # e2e tests
 $ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
 ```
 
 !!! Для запуска тестов у вас должен быть файл ".env.test" в корневой директории, вот пример его заполнения (также прикрепил свой): 
